@@ -1,15 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Nav from "./components/nav";
+import Nav from "./Components/Nav";
 import Footer from "./components/footer";
 import Content from "./Components/Content";
+import Tag from "./Components/Tag";
 import "./Style/index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
-    <Nav />
+<Nav style={{ backgroundColor: 'white' }} />
 
-    <Content/>
+    <Content />
+    
+    {/*<Tag /> */}
 
     <div className="credits">
       <Footer />

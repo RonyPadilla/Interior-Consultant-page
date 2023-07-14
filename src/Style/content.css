@@ -1,13 +1,46 @@
-.a-read{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-line-height: normal;
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.content {
+  display: flex;
+  margin-left: 12vw;
 }
-.arrow-icon{
-    margin-left: 1vw;
-    color: white;
-    width: 24px;
-    height: 24px;
+
+.text-content{
+    margin-top: 11vh;
+   margin-right: 10vw;
+}
+
+.h1-content {
+  color: #fff;
+  font-family: Lora;
+  font-size: 48px;
+}
+
+.p-content {
+  font-family: Montserrat;
+  color: #fff;
+  font-size: 24px;
+  width: 22.3vw;
+}
+
+.a-read {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 700;
+}
+.arrow-icon {
+  margin-left: 1vw;
+  color: white;
+  width: 24px;
+  height: 24px;
+}
+
+.img-interior {
+  width: 42.7vw;
+  height: 62.8vh;
+  margin-right: 10vw;
 }
