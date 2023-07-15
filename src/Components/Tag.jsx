@@ -1,11 +1,12 @@
+import "../Style/tag.css"
 
 function Tag() {
     
     return(
         <>
-        <section>
+        <section className="tag">
             <div>
-                <img src="https://github.com/RonyPadilla/Interior-Consultant-page/blob/main/img/photo2.png?raw=true" alt="img-user"/>
+                <img className="img-tag" src="https://github.com/RonyPadilla/Interior-Consultant-page/blob/main/img/photo2.png?raw=true" alt="img-user"/>
                 <div>
                     <h5>Aliza Webber</h5>
                     <p>Interior designer</p>
