@@ -27,18 +27,36 @@ function Content() {
           />
 
           <section className="tag">
-            <div style={{ display: "flex" }}>
-              <img
-                className="img-tag"
-                src="https://github.com/RonyPadilla/Interior-Consultant-page/blob/main/img/photo2.png?raw=true"
-                alt="img-user"
-              />
-              <div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "flex-start",
+                marginLeft: "2.1vw",
+                marginTop: "2.2vh",
+              }}
+            >
+              <div style={{ marginRight: "1vw" }}>
+                <img
+                  className="img-tag"
+                  src="https://github.com/RonyPadilla/Interior-Consultant-page/blob/main/img/photo2.png?raw=true"
+                  alt="img-user"
+                />
+              </div>
+
+              <div style={{ marginTop: "-2vh" }}>
                 <h5 className="tag-h5">Aliza Webber</h5>
-                <p className="tag-p">Interior designer</p>
+                <p
+                  style={{ marginTop: "-1vw", marginRight: "20px" }}
+                  className="tag-p"
+                >
+                  Interior designer
+                </p>
               </div>
             </div>
-            <div className="tag-div" style={{width: "14.9vw"}}>
+            <div
+              className="tag-div"
+              style={{ marginLeft: "2vw", marginTop: "-1vh" }}
+            >
               <h2 className="tag-h2">Designed in 2020 by Aliza Webber</h2>
             </div>
           </section>

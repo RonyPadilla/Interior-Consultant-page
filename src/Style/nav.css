@@ -23,6 +23,12 @@ header {
   color: #fff;
   font-family: Crimson Pro;
   font-size: 14px;
+  cursor: pointer;
+}
+
+.button-nav:hover{
+  transition: 0.4s;
+  background-color: #373538;
 }
 
 ul {
