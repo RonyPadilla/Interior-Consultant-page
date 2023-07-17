@@ -1,6 +1,5 @@
 import { BsArrowRight } from "react-icons/bs";
 import "../Style/content.css";
-import Tag from "./Tag";
 
 function Content() {
   return (
@@ -27,15 +26,8 @@ function Content() {
           />
 
           <section className="tag">
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "flex-start",
-                marginLeft: "2.1vw",
-                marginTop: "2.2vh",
-              }}
-            >
-              <div style={{ marginRight: "1vw" }}>
+            <div className="div-user">
+              <div style={{ marginRight: "1vw", marginTop:"8px" }}>
                 <img
                   className="img-tag"
                   src="https://github.com/RonyPadilla/Interior-Consultant-page/blob/main/img/photo2.png?raw=true"
@@ -43,10 +35,10 @@ function Content() {
                 />
               </div>
 
-              <div style={{ marginTop: "-2vh" }}>
+              <div style={{ marginTop: "-1vh", backgroundColor: "transparent"}}>
                 <h5 className="tag-h5">Aliza Webber</h5>
                 <p
-                  style={{ marginTop: "-1vw", marginRight: "20px" }}
+                  style={{ marginTop: "-15px", marginRight: "20px" }}
                   className="tag-p"
                 >
                   Interior designer
@@ -55,7 +47,6 @@ function Content() {
             </div>
             <div
               className="tag-div"
-              style={{ marginLeft: "2vw", marginTop: "-1vh" }}
             >
               <h2 className="tag-h2">Designed in 2020 by Aliza Webber</h2>
             </div>

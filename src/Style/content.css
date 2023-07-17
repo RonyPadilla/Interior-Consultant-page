@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 .content {
   display: flex;
   margin-left: 12vw;
 }
 
-.text-content{
-    margin-top: 11vh;
-   margin-right: 10vw;
+.text-content {
+  margin-top: 11vh;
+  margin-right: 10vw;
 }
 
 .h1-content {
@@ -45,43 +45,152 @@
   margin-right: 10vw;
 }
 
-.tag{
+.tag {
   background: #181719;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 21.3vw;
-  height: 20.2vh;
+  height: 20%;
   position: absolute;
   bottom: 5%;
   left: 64%;
 }
 
-.img-tag{
+.div-user {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2.1vw;
+  margin-top: 2.2vh;
+}
+
+.img-tag {
   border-radius: 37px;
-  width: 2.6vw;
-  height:  5.3vh;
+  width:  2.6vw;
+  height: 5.3vh;
 }
 
-.tag-h5{
-  color: #FFF;
-font-family: Montserrat;
-font-size: 0.7vw;
+.tag-h5 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.7vw;
 }
 
-.tag-p{
-  color:  #828282;
-font-family: Montserrat;
-font-size: 0.6vw;
+.tag-p {
+  color: #828282;
+  font-family: Montserrat;
+  font-size: 0.6vw;
 }
 
-.tag-div{
+.tag-div {
   bottom: 30px;
   right: 20px;
   width: 14.9vw;
   height: 7.1vh;
+  margin-left: 2vw;
+    margin-top: -2vh;
 }
 
-.tag-h2{
-  color: #FFF;
-font-family: Lora;
-font-size: 1.25vw;
+.tag-h2 {
+  color: #fff;
+  font-family: Lora;
+  font-size: 1.4vw;
+}
+
+@media (max-width: 700px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text-content {
+    margin-top: 0vh;
+    margin-right: 0vw;
+  }
+
+  .h1-content {
+    color: #fff;
+    font-family: Lora;
+    font-size: 36px;
+  }
+
+  .p-content {
+    font-family: Montserrat;
+    color: #fff;
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .a-read {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+  }
+  .arrow-icon {
+    margin-left: 1vw;
+    color: white;
+    width: 24px;
+    height: 24px;
+  }
+
+  .img-interior {
+    width: 75vw;
+    height: 40.9vh;
+    margin-right: 0vw;
+  }
+
+  .tag {
+    background: #181719;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 64vw;
+    height: 15.7vh;
+    position: absolute;
+    bottom: 7%;
+    left: 20%;
+  }
+
+  .div-user {
+    margin-left: 4.1vw;
+    margin-top: 2px;
+  }
+
+  .img-tag {
+    border-radius: 37px;
+    width: 36.6px;
+    height: 36.6px;
+  }
+
+  .tag-h5 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .tag-p {
+    color: #828282;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .tag-div {
+    bottom: 0px;
+    right: 20px;
+    width: 210px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: -6vw;
+  }
+
+  .tag-h2 {
+    color: #fff;
+    font-family: Lora;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 700;
+  }
 }
